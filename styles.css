@@ -1,0 +1,34 @@
+:root{
+    --x-background-color: #a29bfe;
+    --x-modal-background-color: lightseagreen;
+    --x-foreground-color: black;
+    --x-modal-foreground-color: black;
+  }
+  
+  *{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+  }
+  
+  html,body{
+    height:100%;
+  }
+  
+  body{
+    background-color: var(--x-background-color);
+    color: var(--x-foreground-color);
+  }
+  
+  div.card{
+    background-color: var(--x-modal-background-color);
+    
+  }
+  
+  div.card .card-header , div.card .card-title, div.card .card-text{
+    color: var(--x-modal-foreground-color) !important;
+  }
+  
+  h5,p{
+    color:red;
+  }
